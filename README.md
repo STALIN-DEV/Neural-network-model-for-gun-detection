@@ -8,9 +8,9 @@
 - The neural network was written on Python using Google Colab and Visual Studio
 - Accuracy on the test dataset was 93.4%
 - During training, maximal accuracy was 0.9247 / 92.4%
-'''sh
+```sh
 7/7 - 54s - loss: 0.2165 - accuracy: 0.9150 - val_loss: 0.2000 - val_accuracy: 0.9247 - 54s/epoch - 8s/step
-'''
+```
 
 ## Tech
 
@@ -23,19 +23,20 @@ The project uses:
 ## Installing
 
 To install you must:
-'''sh
+```sh
 git clone https://github.com/STALIN-DEV/Neural-network-model-for-gun-detection
-'''
+```
 
 ## Using
 
 If you want to use the model in your project, move it to the project repository and import it:
-'''python
+```python
 from tensorflow.keras.models import load_model
 model = load_model('gunmen.h5')
 model.summary()
-'''
-'''sh
+```
+
+```sh
 Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -77,7 +78,7 @@ Total params: 5285923 (20.16 MB)
 Trainable params: 5285923 (20.16 MB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
-'''
+```
 
 ## License
 
