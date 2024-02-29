@@ -8,6 +8,7 @@
 - The neural network was written on Python using Google Colab and Visual Studio
 - Accuracy on the test dataset was 93.4%
 - During training, maximal accuracy was 0.9247 / 92.4%
+- The model has two types of recognition: gun and human
 ```sh
 7/7 - 54s - loss: 0.2165 - accuracy: 0.9150 - val_loss: 0.2000 - val_accuracy: 0.9247 - 54s/epoch - 8s/step
 ```
